@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slip Gaji</title>
+    <style>
+          .slip-gaji {
+            width: 80%;
+            margin: 80px auto 10px;
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #f9f9f9;
+          }
+          
+          .header {
+            text-align: center;
+          }
+          
+          .header h2 {
+            margin: 0;
+          }
+          
+          .content {
+            margin-top: 20px;
+          }
+          
+          .info p {
+            margin: 5px 0;
+          }
+          
+          .detail {
+            margin-top: 20px;
+          }
+          
+          table {
+            width: 100%;
+            border-collapse: collapse;
+          }
+          
+          table th, table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+          }
+          
+          .table th {
+            background-color: #f2f2f2;
+          }
+
+          .total-gaji {
+            background-color: #7e7c7c; 
+          }
+          
+          .footer {
+            margin-top: 20px;
+            text-align: center;
+          }
+    </style>
+</head>
+<body>
+    <div class="slip-gaji">
+        <div class="header">
+            <h2>Slip Gaji</h2>
+            <p>Bulan: Januari 2024</p>
+        </div>
+        <div class="content">
+            <div class="info">
+                <p><strong>Nama:</strong> John Doe</p>
+                <p><strong>Jabatan:</strong> Manajer Keuangan</p>
+                <p><strong>Nomor Pegawai:</strong> 12345</p>
+            </div>
+            <div class="detail">
+                <table>
+                    <tr>
+                        <th>Komponen Gaji</th>
+                        <th>Jumlah (Rp)</th>
+                    </tr>
+                    <tr>
+                        <td>Gaji Pokok</td>
+                        <td>5.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Tunjangan Transportasi</td>
+                        <td>1.000.000</td>
+                    </tr>
+                    <tr>
+                        <td>Bonus</td>
+                        <td>500.000</td>
+                    </tr>
+                    <tr class="total-gaji">
+                        <td><strong>Total Gaji</strong></td>
+                        <td><strong>6.500.000</strong></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="footer">
+            <p>Terima kasih atas kinerja Anda.</p>
+        </div>
+    </div>
+</body>
+</html>
